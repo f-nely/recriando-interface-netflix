@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/* elementos base*/
 body {
     background-color: var(--preta);
-    font-family: 'Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
 }
 
 header .container {
@@ -36,5 +38,14 @@ header nav a{
 
 header nav a:hover {
     color: #FFF;
+}
+
+/* file principal */
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%) , url('/img/capa-house.jpg');
+
+    height: 400px;
+    background-size: cover;
 }
 
