@@ -20,3 +20,13 @@ header .logo {
     font-size: 40px;
 }
 
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
